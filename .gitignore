@@ -1,8 +1,0 @@
-*.bak
-*.DLL
-*.exe
-
-**/obj/
-**/bin/
-**/msi/
-**/nugets/

@@ -1,2 +1,8 @@
-Play.Catalog/src/Play.Catalog.Service/bin/
-Play.Catalog/src/Play.Catalog.Service/obj/
+*.bak
+*.DLL
+*.exe
+
+**/obj/
+**/bin/
+**/msi/
+**/nugets/

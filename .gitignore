@@ -1,4 +1,4 @@
-Play.Common/src/Play.Common/obj/*.bak
+*.bak
 *.DLL
 *.exe
 

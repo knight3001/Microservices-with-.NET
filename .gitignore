@@ -1,0 +1,8 @@
+Play.Common/src/Play.Common/obj/*.bak
+*.DLL
+*.exe
+
+obj/
+bin/
+msi/
+nugets/

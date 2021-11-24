@@ -50,7 +50,7 @@ namespace Play.Inventory.Service
             .AddTransientHttpErrorPolicy(builder => builder.Or<TimeoutRejectedException>().CircuitBreakerAsync(
                 3, 
                 TimeSpan.FromSeconds(15),
-                onBreak: (outcome, timespan) =>
+                onBreak: (outcome, timespan) => 
                 {
                     var serviceProvider = services.BuildServiceProvider();
                     serviceProvider.GetService<ILogger<CatalogClient>>() ?
